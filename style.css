@@ -33,4 +33,40 @@ header {
     background-color: #ddd;
 }
 
+/* side nav */
+
+
+
+.nav_side {
+    position: relative;
+    left: 0;
+    top: -30;
+    width: 200px;
+    height: 100%;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.nav_side a {
+    margin: 10px 0;
+    text-decoration: none;
+    color: black;
+}
+
+
 /* Index Page CSS */
+
+
+/* Join Now Page CSS */
+
+.side_plus {
+    display: flex;
+}
+.nav_side {
+    flex: none;
+}
+
+#signUp {
+    flex: 3;
+}
