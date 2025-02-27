@@ -47,6 +47,7 @@ header {
     display: flex;
     flex-direction: column;
     padding: 10px;
+    flex: none;
 }
 .nav_side a {
     margin: 10px 0;
@@ -54,19 +55,15 @@ header {
     color: black;
 }
 
+.side_plus {
+    display: flex;
+}
+
+.side_content {
+    flex: 3;
+}
 
 /* Index Page CSS */
 
 
-/* Join Now Page CSS */
 
-.side_plus {
-    display: flex;
-}
-.nav_side {
-    flex: none;
-}
-
-#signUp {
-    flex: 3;
-}
