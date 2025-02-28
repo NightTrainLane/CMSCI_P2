@@ -65,5 +65,12 @@ header {
 
 /* Index Page CSS */
 
+/* Leadership Page CSS */
 
-
+#advisors {
+    border: 20px;
+    background-color: #333;
+    height: 20px;
+    width: 20px;
+    size: 500px;
+}
