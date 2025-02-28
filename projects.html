@@ -28,10 +28,48 @@
             <a href="resources.html">- Resources</a>
             <a href="join.html">- Join Now</a>
         </nav>
-        <div>
-            <h1>Welcome to My Shiny App</h1>
-            <iframe src="https://nahmad0.shinyapps.io/heatmap/" width="100%" height="600px"></iframe> <!-- this is a test remove it later -->
+
+      <!-- Welcome and description at the top -->
+      <div class="welcome-section">
+        <h1>Welcome to My Shiny App</h1>
+        <p>This page features our interactive data visualizations, including a live heatmap powered by Shiny.io. Explore our projects and see data come to life!</p>
+        <!-- Test comment removed -->
+    </div>
+
+    <!-- Heatmap section with button inside -->
+    <div class="containerProjects">
+        <div class="content-area" id="contentArea">
+            <div class="heatmap-wrapper" id="heatmapWrapper">
+                <div class="heatmapImg">
+                    <img src="img/image.png" alt="no imageFound">
+
+                </div>
+                <div class="descriptionofHeatmap">
+
+                    <div class="description">
+                        <h2>Heatmap Project</h2>
+                        <p> One of the awesome Projects done in the Data Club was Heatmap using shiny app. Shiny app is great for creating web apps. 
+                            <br> This heatmap visualization will allow you to upload real-time data trends using Shiny.io like the picture. Toggle it on to explore!!</p>
+                        </div>
+                        <div  class="heatmap-content">
+                            <!-- I will use a cool button -->
+                            
+                            <button class="toggleBtn" data-target="heatmap">Toggle Heatmap</button>
+                            <div class="iframe-container" id="iframeContainer">
+                                <!-- Heatmap iframe will appear here when turned on -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </div>
     </div>
+
+    <div>
+        <p> Project 2 coming soon</p>
+    </div>
+   
+    <script src="script.js">
+
+    </script>
 </body>
 </html>
