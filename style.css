@@ -2,12 +2,21 @@
 
 /* Navagation: Developed by -> Ethan Lane */
 header {
-    text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Reduced shadow */
-    flex: 1;
-    padding: 10px; /* Reduced padding */
+    margin: auto 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Spaces out logo and title */
+    padding: 10px 20px; /* Adjust padding */
+    background-color: white; /* Add background if needed */
 }
 
+header img {
+    width: 50px;
+    height: auto;
+    filter: none; /* Removes any applied filter */
+    box-shadow: none; /* Ensures no extra shadow */
+    background: none; /* Prevents any unwanted background */
+}
 .nav {
      position: sticky;/* the navigation bar will stick the top when scrolling the "NA"  */
     display: flex;
