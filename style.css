@@ -9,6 +9,7 @@ header {
 }
 
 .nav {
+     position: sticky;/* the navigation bar will stick the top when scrolling the "NA"  */
     display: flex;
     justify-content: center;
     width: 100%;

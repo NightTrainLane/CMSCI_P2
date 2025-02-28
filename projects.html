@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Projects Tab</title>
     <link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
-<body class="projects">
+<body class="projects" style="margin-bottom: 0;">
     <header>
         <h1>Projects</h1>
     </header>
@@ -18,6 +18,9 @@
         <a href="resources.html">Resources</a>
         <a href="join.html">Join Now</a>
     </nav>
+<!-- I added this lines so it takes to whole screen when loaded -->
+<div style="width: 100vw; height: 75vh; display: flex; justify-content: center; align-items: center; text-align: center; margin-top: 0;">
+
     <div class="side_plus">
         <nav class="nav_side">
             <h2>Quick Links</h2>
@@ -28,14 +31,16 @@
             <a href="resources.html">- Resources</a>
             <a href="join.html">- Join Now</a>
         </nav>
-
-      <!-- Welcome and description at the top -->
-      <div class="welcome-section">
-        <h1>Welcome to My Shiny App</h1>
-        <p>This page features our interactive data visualizations, including a live heatmap powered by Shiny.io. Explore our projects and see data come to life!</p>
-        <!-- Test comment removed -->
     </div>
+      <!-- Welcome and description at the top -->
 
+        <div class="welcome-section" style="margin-top: 0; padding: 0;">
+            <h1 style="margin-top: 0; ">Welcome to My Shiny App</h1>
+            <p style="margin-top: 0; ">This page features our interactive data visualizations, including a live heatmap powered by Shiny.io. Explore our projects and see data come to life!</p>
+            <!-- Test comment removed -->
+        </div>
+        
+    </div>
     <!-- Heatmap section with button inside -->
     <div class="containerProjects">
         <div class="content-area" id="contentArea">
