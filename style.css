@@ -74,6 +74,22 @@ header img {
   flex: 3;
 }
 
+.side_plus {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.side_center {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: auto; /* Center align both vertically and horizontally */
+    flex: 3;
+    text-align: center;
+}
+
 /* Index Page CSS */
 
 /* Leadership Page CSS */
