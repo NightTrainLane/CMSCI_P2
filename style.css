@@ -92,9 +92,28 @@ header img {
 
 /* Index Page CSS */
 
+/* About Page CSS */
+
+#records {
+    border: 5px solid #333;
+}
+
+#records th, td {
+    border: 1px solid #333;
+    padding: 8px;
+    margin: 0;
+}
+
+#records tr:nth-child(even) {
+    background-color: lightblue;
+}
+#records tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
 /* Leadership Page CSS */
 
-#advisors img {
+.advisors img {
     border: 20px;
     padding: 20px;
     background-color: #333;
