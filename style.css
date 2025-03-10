@@ -7,7 +7,7 @@ header {
     align-items: center;
     justify-content: space-between; /* Spaces out logo and title */
     padding: 10px 20px; /* Adjust padding */
-    background-color: white; /* Add background if needed */
+    background-color: white;
 }
 
 header img {
@@ -119,9 +119,16 @@ header img {
     background-color: #333;
     height: 200px;
     width: 200px;
+    align-content: center;
 }
 
-
+.advisors h3 {
+    background-color: #f9f9f9;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+}
 
 /* ifRAME CSS */
 @media (max-width: 768px) {
